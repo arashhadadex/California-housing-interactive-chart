@@ -1,10 +1,19 @@
+---
+title: California Housing Interactive Dashboard
+emoji: 🏠
+colorFrom: blue
+colorTo: green
+sdk: docker
+pinned: false
+---
+
 # California Housing Dashboard
 
 An interactive data dashboard built with Plotly Dash, exploring the California Housing dataset.
 
 ## Live Demo
 
-[View Dashboard](https://your-app-name.onrender.com) ← replace with your Render URL after deploying
+[View Dashboard](https://arashhadad-california-housing-interactive-dashboard.hf.space)
 
 ## Features
 
@@ -36,21 +45,44 @@ Original source: [StatLib Repository](https://www.dcc.fc.up.pt/~ltorgo/Regressio
 
 **1. Clone the repo**
 
-```bash
-git clone https://github.com/yourusername/housing-dashboard.git
-cd housing-dashboard
-```
+\```bash
+git clone https://github.com/arashhadadex/California-housing-interactive-chart.git
+cd California-housing-interactive-chart
+\```
 
 **2. Install dependencies**
 
-```bash
+\```bash
 pip install -r requirements.txt
-```
+\```
 
 **3. Run the app**
 
-```bash
-python app.py
-```
+\```bash
+python sales_dashboard.py
+\```
 
 **4. Open in browser**
+
+\```
+http://127.0.0.1:8050
+\```
+
+## Project Structure
+
+\```
+California-housing-interactive-chart/
+├── sales_dashboard.py
+├── housing.csv
+├── requirements.txt
+├── Dockerfile
+└── README.md
+\```
+
+## Deployment
+
+Deployed on [Hugging Face Spaces](https://huggingface.co/spaces/arashhadad/California-housing-interactive-dashboard) using Docker.
+
+## License
+
+MIT
