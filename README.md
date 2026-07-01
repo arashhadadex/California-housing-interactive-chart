@@ -45,39 +45,39 @@ Original source: [StatLib Repository](https://www.dcc.fc.up.pt/~ltorgo/Regressio
 
 **1. Clone the repo**
 
-\```bash
+```bash
 git clone https://github.com/arashhadadex/California-housing-interactive-chart.git
 cd California-housing-interactive-chart
-\```
+```
 
 **2. Install dependencies**
 
-\```bash
+```bash
 pip install -r requirements.txt
-\```
+```
 
 **3. Run the app**
 
-\```bash
+```bash
 python sales_dashboard.py
-\```
+```
 
 **4. Open in browser**
 
-\```
+```
 http://127.0.0.1:8050
-\```
+```
 
 ## Project Structure
 
-\```
+```
 California-housing-interactive-chart/
 ├── sales_dashboard.py
 ├── housing.csv
 ├── requirements.txt
 ├── Dockerfile
 └── README.md
-\```
+```
 
 ## Deployment
 
