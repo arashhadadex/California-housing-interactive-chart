@@ -1,12 +1,3 @@
----
-title: California Housing Interactive Dashboard
-emoji: 🏠
-colorFrom: blue
-colorTo: green
-sdk: docker
-pinned: false
----
-
 # California Housing Dashboard
 
 An interactive data dashboard built with Plotly Dash, exploring the California Housing dataset.
